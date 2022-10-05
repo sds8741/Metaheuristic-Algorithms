@@ -1,6 +1,6 @@
 ## Metaheuristic Algorithms
 
-#### python實作手刻 Metaheuristic 演算法
+#### Python實作手刻 Metaheuristic 演算法
 
 三種不同的演算法:
 
@@ -8,5 +8,13 @@
 + [粒子群演算法](./PSO.ipynb "PSO") (Particle Swarm Optimization, PSO)
 + [模擬退火](./SA.ipynb "SA") (Simulated Annealing, SA)
 
-給定函數f(x)與constraint使用演算法找出與理論解最接近的最佳解
+GA與PSO目標函數均為雙變數函數:
+```py
+def ObjectiveFF(x,y):
+    ff = math.exp(-0.1*(x**4 + y**4)) + math.exp(math.cos(2*math.pi*x) +math.cos(2*math.pi*y))
+    return ff
+```
+其中變數限制為: `-1≤x≤1` `-2≤y≤1` `x+y≤1`
+
+在限制內找到目標函數最小值 `8.3891`
 
