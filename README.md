@@ -5,7 +5,7 @@
 + [基因演算法](./GA.ipynb "GA") (Genetic Algorithms, GA)
 + [粒子群演算法](./PSO.ipynb "PSO") (Particle Swarm Optimization, PSO)
 + [模擬退火](./SA.ipynb "SA") (Simulated Annealing, SA)
-
+-----
 ### GA、PSO:
 
 目標函數均為雙變數函數:
@@ -22,11 +22,11 @@ def ObjectiveFF(x,y):
 
 + GA:
 
-<img src='./image/GA_history.png' width=40%>
+<img src='./image/GA_history.png' width=35%>
 
 + PSO:
 
-<img src='./image/PSO_history.png' width=40%>
+<img src='./image/PSO_history.png' width=35%>
 
 ### SA:
 目標函數為經典的旅行業務員問題(Traveling Salesman Problem, TSP)，總共10個點，最佳化旅行路徑來最小化總距離(包含回到起始點)。
@@ -43,6 +43,6 @@ print('Distance Martix:\n',D)
 
 #### Result:
 
-<img src='./image/TSP_distance.png' width=40%>
+<img src='./image/TSP_distance.png' width=35%>
 
-<img src='./image/SA_history.png' width=40%>
+<img src='./image/SA_history.png' width=35%>
