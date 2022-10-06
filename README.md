@@ -8,7 +8,7 @@
 -----
 ### GA、PSO:
 
-目標函數均為雙變數函數:
+目標函數均為雙變數連續函數:
 ```py
 def ObjectiveFF(x,y):
     ff = math.exp(-0.1*(x**4 + y**4)) + math.exp(math.cos(2*math.pi*x) +math.cos(2*math.pi*y))
