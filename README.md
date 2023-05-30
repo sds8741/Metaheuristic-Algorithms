@@ -1,4 +1,4 @@
-## Python實作手刻 Metaheuristic 演算法
+## Python實作 Metaheuristic 演算法
 
 三種不同的演算法:
 
